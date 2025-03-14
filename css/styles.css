@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+}
+
+header {
+width: 100%;
+min-height: 120vh;
+background: url(../img/bg.header.jpg);
+background-size: cover;
+}
+
+header nav {
+display: flex;
+width: 90%;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul a {
+color: #e9f7fc;
+font-size: 20px;
+padding: 10px 14px;
+text-decoration: none;
+border-bottom: 1px solid transparent;   
+transition: .5s;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul a:hover {
+border-bottom: 1px solid #e9f7fc;
+}
+
+.hero {
+width: 100%;
+text-align: center;
+padding-top: 130px;
+}
+
+.hero h2 {
+font-size: 60px;
+color: #e9f7fc;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.hero h1 {
+color: #e9f7fc;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 100px;
+}
+
+.hero a {
+background: #52aff5dc;
+color: #e9f7fc;
+font-size: 28px;
+padding: 10px 20px;
+border-radius: 10px;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: inline-block;
+transition: transform 0.5s ease;
+}
+
+header .hero a:hover {
+transform: scale(1.02);
+background-color: #e9f7fc;
+color: #52aff5dc;
+}
+
+header a img {
+transition: .5s;
+}
+
+header a img:hover {
+transform: scale(1.1);
+}
+
+#servicios {
+width: 100%;
+text-align: center;
+padding: 100px 10%;
+}
+
+#servicios h2 {
+font-size: 50px;
+margin-bottom: 30px;
+color: #e9f7fc;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicios {
+    width: 100%;
+    background: url(../img/servicios.jpg);
+    background-size: cover;
+}
+
+#parrafo {
+font-size: 25px;
+color: #e9f7fc;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicios #caja-servicios {
+background: #33333359;
+padding: 10px 5px;
+border-radius: 10px;
+}
+
+
+#servicios .fila {
+width: 100%;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#servicios .col-servicio {
+position: relative;
+z-index: 1;
+max-width: 300px;
+}
+
+#servicios .col-servicio h3 {
+font-size: 30px;
+color: #e9f7fc;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicios .col-servicio p {
+    font-size: 20px;
+    color: #e9f7fc;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#servicios .col-servicio a {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+
+#servicios .col-servicio img {
+    border-radius: 6px;
+}
+
+#equipo {
+    width: 100%;
+    text-align: center;
+    padding: 30px 10% 30px;
+    background: linear-gradient(#454331, #4f797ce3, #ccc)
+    }
+
+#equipo #caja-equipo {
+    background: #33333359;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+#equipo .col-equipo img {
+    border-radius: 15px;
+}
+
+#equipo h2 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+#equipo h2 {
+font-size: 50px;
+color: #e9f7fc;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#equipo .fila {
+width: 100%;
+display: flex;
+justify-content: space-around;
+margin: 40px 0;
+flex-wrap: wrap;
+}
+
+#equipo .col-equipo {
+width: 30%;
+margin: 20px;
+}
+
+#equipo .col-equipo h3 {
+color: #e9f7fc;
+font-weight: 300;
+font-size: 32px;
+margin-top: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contacto {
+background: url(../img/bg-contactanos.jpg);
+background-size: cover;
+width: 100%;
+text-align: center;
+padding: 120px 10% 110px;
+}
+
+#contacto #caja-contacto {
+    background: #33333359;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+#contacto h2 {
+font-size: 50px;
+margin-bottom: 50px;
+color: #e9f7fc;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contacto p {
+font-size: 20px;
+margin-bottom: 30px;
+color: #e9f7fc;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contacto form {
+width: 70%;
+max-width: 480px;
+margin: 0 auto;
+}
+
+#contacto .fila {
+justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+}
+
+#contacto .fila input,
+#contacto select {
+width: 220px;
+padding: 8px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contacto button {
+background: #52aff5dc;
+padding: 6px 30px;
+color: #e9f7fc;
+border-radius: 6px;
+font-size: 20px;
+margin-top: 30px;
+border: none;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+display: inline-block;
+transition: transform 0.5s ease;
+}
+
+#contacto button:hover {
+transform: scale(1.02);
+background-color: #e9f7fc;
+color: #52aff5dc;
+}
+
+/* Footer */
+#footer {
+color: #e9f7fc;
+padding: 20px;
+text-align: center;
+font-size: 15px;
+background: #333333;
+}
+
+#footer p {
+margin-top: 10px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer #redes {
+    margin-top: 10px;
+}
+
+#footer #redes img {
+    padding: 6px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental Sonrisa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+<!-- Sección de header y navegacion del sitio -->
+<header>
+    <nav>
+        <a href="#"><img src="img/logo.png" alt="Clínica Dental Sonrisa"></a>
+        <ul>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#equipo">Equipo</a>
+            <a href="#contacto">Contacto</a>
+        </ul>
+    </nav>
+    <div class="hero">
+        <img src="img/odontologia.png" alt="Imagen representativa de la clínica">
+        <h2>Sonríe con Confianza</h2>
+        <h1>Tu Salud Dental en Buenas Manos</h1>
+        <a href="#contacto">Agenda tu Cita</a>
+    </div>
+</header>
+<main>
+<!-- Sección de Servicios -->
+    <section id="servicios">
+        <div id="caja-servicios">
+            <h2>SERVICIOS</h2>
+            <p id="parrafo">En <strong>Clínica Dental Sonrisa</strong> cuidamos de tu salud bucal con una variedad de tratamientos.</p>
+            <div class="fila">
+                <div class="col-servicio">
+                    <img src="img/limpieza.jpg" alt="Limpieza Dental">
+                    <h3>Limpieza Dental</h3>
+                    <p>Mantén tus encías y dientes <br> saludables con una limpieza profesional.</p>
+                </div>
+                <div class="col-servicio">
+                    <img src="img/blanqueamiento.jpg" alt="Blanqueamiento Dental">
+                    <h3>Blanqueamiento</h3>
+                    <p>Devuelve el brillo natural <br> a tu sonrisa con nuestros tratamientos.</p>
+                </div>
+                <div class="col-servicio">
+                    <img src="img/ortodoncia.jpg" alt="Ortodoncia">
+                    <h3>Ortodoncia</h3>
+                    <p>Corrige la alineación de tus dientes <br> para lograr la sonrisa perfecta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Sección de Equipo -->
+    <section id="equipo">
+        <div id="caja-equipo">
+            <h2>NUESTRO EQUIPO</h2>
+            <div class="fila">
+                <div class="col-equipo">
+                    <img src="img/dentista1.jpg" alt="Dr. Juan Pérez">
+                    <h3>Dr. Juan Pérez</h3>
+                </div>
+                <div class="col-equipo">
+                    <img src="img/dentista2.jpg" alt="Dra. María Gómez">
+                    <h3>Dra. María Gómez</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Sección de Contacto -->
+    <section id="contacto">
+        <div id="caja-contacto">
+            <h2>CONTACTO</h2>
+            <p>Déjanos tus datos y te contactaremos para agendar una cita</p>
+            <form action="#">
+                <div class="fila">
+                    <input type="text" placeholder="Nombres:" required>
+                    <input type="number" placeholder="Teléfono:" required>
+                </div>
+                <div class="fila">
+                    <input type="email" placeholder="Email:" required>
+                    <select name="ciudad" id="ciudad">
+                    <option value="">Ciudad</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="bogota">Bogotá</option>
+                    </select>
+                </div>
+            <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <section id="footer">
+        <p>
+        © Todos los derechos reservados<br>
+        contacto@clinicadentalsonrisa.com<br>
+        +57 3209170425<br>
+        Cll 6 # 11-12
+        </p>
+        <div id="redes">
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank"><img style="width: 50px;" src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img style="width: 50px;"
+                src="img/instagram.png" alt="intagram"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img style="width: 50px;" src="img/linkedin.png" alt="linkedin"></a>
+        </div>
+    </section>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
