@@ -24,15 +24,15 @@ padding-top: 30px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
+header nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 15px;
 }
 
-header ul a {
+header nav ul a {
 color: #e2f7ff;
 font-size: 20px;
 padding: 10px 14px;
@@ -42,7 +42,7 @@ transition: .5s;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header ul a:hover {
+header nav ul a:hover {
 border-bottom: 1px solid #e2f7ff;
 }
 
